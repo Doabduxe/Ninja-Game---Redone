@@ -1,0 +1,55 @@
+{
+	"name": "ItemPhotoPLaceHolder",
+	"plugin-id": "Sprite",
+	"sid": 615243490492144,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 981480012769045
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.568,
+						"originY": 0.508,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8351116,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.504,
+								"y": 0.5
+							},
+							{
+								"name": "Image Point 2",
+								"x": 1.28,
+								"y": 0.464
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 679885103944508,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

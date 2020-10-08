@@ -1,0 +1,55 @@
+{
+	"name": "DeadFloor",
+	"plugin-id": "Sprite",
+	"sid": 475613880196780,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8233260,
+						"collisionPoly": {
+							"points": [
+								0.013999999999999973,
+								0.318,
+								0.276,
+								0.15599999999999997,
+								0.5109999999999996,
+								0.5249999999999999,
+								0.7984999999999998,
+								0.13649999999999957,
+								0.984,
+								0.4319999999999995,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 578952260404984,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

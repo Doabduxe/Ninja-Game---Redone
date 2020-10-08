@@ -1,0 +1,57 @@
+{
+	"name": "CtrlSwap2",
+	"plugin-id": "Sprite",
+	"sid": 380404608270655,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 322,
+						"height": 564,
+						"originX": 0.4006211180124224,
+						"originY": 0.25886524822695034,
+						"originalSource": "C:\\Users\\D\\Pictures\\Tree.jpg",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8799691,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.25886524822695034,
+								1,
+								1,
+								0.4006211180124224,
+								1,
+								0,
+								1,
+								0,
+								0.25886524822695034,
+								0,
+								0,
+								0.4006211180124224,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 602510299619390,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,2682 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "Adding target to turts"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 966002917518397
+				}
+			],
+			"actions": [
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts",
+					"sid": 290846015180577,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts2",
+					"sid": 553929077602717,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "HopeTurt",
+					"sid": 338482031192576,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "HopeTurt2",
+					"sid": 920044523707311,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player2"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts9",
+					"sid": 586339378484849,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts4",
+					"sid": 260202256660692,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player2"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts5",
+					"sid": 732130154104645,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player2"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts6",
+					"sid": 340728823833887,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player2"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts7",
+					"sid": 923734038689567,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player2"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts8",
+					"sid": 238196116838328,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player2"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts10",
+					"sid": 551500387635813,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player3"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts11",
+					"sid": 706095785913438,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player3"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts12",
+					"sid": 233547283289461,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player3"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts13",
+					"sid": 426811502675765,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player3"
+					}
+				}
+			],
+			"sid": 783730228092295
+		},
+		{
+			"eventType": "comment",
+			"text": "Make Turts Shoot the missels "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts",
+					"sid": 152781560833267,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts",
+					"sid": 237961351154017,
+					"parameters": {
+						"object": "EnemyBlock1",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 881996207039633
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "HopeTurt2",
+					"sid": 619787477071801,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 995774846735051,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "HopeTurt2",
+					"sid": 259107635928234,
+					"parameters": {
+						"object": "HopeBlockOG2",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 633835306438873
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts2",
+					"sid": 610257334460342,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts2",
+					"sid": 249688908963286,
+					"parameters": {
+						"object": "EnemyBlock1",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 131255396320056
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts9",
+					"sid": 609851548948637,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts9",
+					"sid": 470783062298648,
+					"parameters": {
+						"object": "EnemyBlock2",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 502612390583598
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "HopeTurt",
+					"sid": 426114734465090,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 486243773947463,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "HopeTurt",
+					"sid": 342114926183031,
+					"parameters": {
+						"object": "HopeBlockOG",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 574235164896739
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts4",
+					"sid": 381290443044596,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts4",
+					"sid": 576930687758359,
+					"parameters": {
+						"object": "EnemyBlock3",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 661012376325504
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts5",
+					"sid": 444264087839305,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts5",
+					"sid": 518252219216449,
+					"parameters": {
+						"object": "EnemyBlock4",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 632902071757129
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts6",
+					"sid": 317703055670219,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts6",
+					"sid": 226172251898179,
+					"parameters": {
+						"object": "EnemyBlock5",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 171701066324396
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts7",
+					"sid": 360524357285289,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts7",
+					"sid": 982350629739740,
+					"parameters": {
+						"object": "EnemyBlock6",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 730861802910073
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts8",
+					"sid": 134549704891522,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts8",
+					"sid": 253900668913173,
+					"parameters": {
+						"object": "EnemyBlock7",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 308208125955160
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts10",
+					"sid": 230943793283027,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts10",
+					"sid": 879356705983791,
+					"parameters": {
+						"object": "EnemyBlock8",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 903632777164655
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts11",
+					"sid": 680556951477189,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts11",
+					"sid": 955631182319777,
+					"parameters": {
+						"object": "EnemyBlock8",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 334719326832180
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts12",
+					"sid": 895201222359689,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts12",
+					"sid": 788006785819658,
+					"parameters": {
+						"object": "EnemyBlock8",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 198411691229081
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts13",
+					"sid": 656778064142310,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts13",
+					"sid": 711594334888690,
+					"parameters": {
+						"object": "EnemyBlock8",
+						"layer": "2",
+						"image-point": "1"
+					}
+				}
+			],
+			"sid": 760806819971465
+		},
+		{
+			"eventType": "comment",
+			"text": "HP MAke ups like what makes them change to teh bar "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 354359761777292,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 676721346915076,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 543260230843164
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 984605116480526,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 156137547176748,
+					"parameters": {
+						"animation": "\"Hp4\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 596833572635322
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 264707837611761,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 743410672650713,
+					"parameters": {
+						"animation": "\"Hp3\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 965686444549053
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 603306812409198,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 371466420556097,
+					"parameters": {
+						"animation": "\"Hp2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 718820748891763
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 336427664236625,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 448974969876376,
+					"parameters": {
+						"animation": "\"Hp1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 532352226151967
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 764981586762447,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 792828036702896,
+					"parameters": {
+						"animation": "\"NoHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 686274836538050
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player2",
+					"sid": 592018175237131,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 543215950451477,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 652688022339833
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player2",
+					"sid": 807894982317954,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 147527004449791,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 286152269464261
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player2",
+					"sid": 681597119872344,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 112476122742779,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 367309448260308
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player2",
+					"sid": 161437605296188,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 219139961360058,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 328472894775716
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player2",
+					"sid": 224003551790898,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 306128057990680,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 577652542322840
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player2",
+					"sid": 964143257097183,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"comparison": 2,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 658860731478729,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 393332688965409
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player3",
+					"sid": 831574481905678,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 372583163762925,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 529040778981824
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player3",
+					"sid": 261792035413879,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 217290051721634,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 814893563312971
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player3",
+					"sid": 935337026959072,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 755321830808720,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 826214529492609
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player3",
+					"sid": 683705381475600,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 111915147609762,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 665913120404366
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player3",
+					"sid": 809504806959117,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 565092460033839,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 961086992378017
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player3",
+					"sid": 344571046133420,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"comparison": 2,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 331668573990629,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 279445136476253
+		},
+		{
+			"eventType": "comment",
+			"text": "HP/all players "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 652407775033394,
+					"parameters": {
+						"object": "EnemyBlock1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 138853384834759,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 389489813161524
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 944109191883945,
+					"parameters": {
+						"object": "EnemyBlock2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 314914091559518,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 688873886584120
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 516692048275486,
+					"parameters": {
+						"object": "EnemyBlock3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player2",
+					"sid": 434089516194793,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 346167770916547
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 999340460645467,
+					"parameters": {
+						"object": "EnemyBlock4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player2",
+					"sid": 235512686846795,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 519123400504751
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 827490052735737,
+					"parameters": {
+						"object": "EnemyBlock5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player2",
+					"sid": 675325242241137,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 590056750779699
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 174842396200460,
+					"parameters": {
+						"object": "EnemyBlock6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player2",
+					"sid": 154441720453915,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 639691341595031
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 843116952271092,
+					"parameters": {
+						"object": "EnemyBlock7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player2",
+					"sid": 742258005212396,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 756479994325345
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player3",
+					"sid": 793661373100402,
+					"parameters": {
+						"object": "EnemyBlock8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player3",
+					"sid": 135955577673445,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 190478573404233
+		},
+		{
+			"eventType": "comment",
+			"text": "Blocks angles/Speed also make bullets destroy "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "EnemyBlock1",
+					"sid": 750392012830532
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "EnemyBlock1",
+					"sid": 539779208251917,
+					"parameters": {
+						"angle": "-180"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "EnemyBlock1",
+					"sid": 373193696831821,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "400"
+					}
+				}
+			],
+			"sid": 509572478387245
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "EnemyBlock8",
+					"sid": 895024967416580
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "EnemyBlock8",
+					"sid": 286028289404864,
+					"parameters": {
+						"angle": "-90"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "EnemyBlock8",
+					"sid": 798955461460695,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "400"
+					}
+				}
+			],
+			"sid": 274810352719676
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "EnemyBlock2",
+					"sid": 151274075869835
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "EnemyBlock2",
+					"sid": 611911120754455,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "400"
+					}
+				}
+			],
+			"sid": 640449118895666
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "EnemyBlock1",
+					"sid": 491320637554388,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 103824509855026
+				}
+			],
+			"sid": 883455156641549
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "EnemyBlock2",
+					"sid": 196866625440843,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock2",
+					"sid": 794213864930279
+				}
+			],
+			"sid": 493094465635934
+		},
+		{
+			"eventType": "comment",
+			"text": "This should make it so that when the HopeBlock hits the player he goes immune to the red bullets and the turt will stop shooting at player, you can only grab hopeblock Once"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "HopeBlockOG",
+					"sid": 606660033603135,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "HopeTurt",
+					"sid": 794165757022232
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "HopeTurt",
+					"sid": 320809308468357,
+					"parameters": {
+						"object": "Key_Grab",
+						"layer": "2",
+						"image-point": "2"
+					}
+				}
+			],
+			"sid": 434593635076450
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "HopeBlockOG2",
+					"sid": 239459878772865,
+					"parameters": {
+						"object": "Player2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "HopeTurt2",
+					"sid": 358780045237413
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "HopeTurt2",
+					"sid": 306394377034140,
+					"parameters": {
+						"object": "Key_Grab",
+						"layer": "2",
+						"image-point": "2"
+					}
+				}
+			],
+			"sid": 260686922937772
+		},
+		{
+			"eventType": "comment",
+			"text": "Should make the Ctrl's swap around "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 437653744351524,
+					"parameters": {
+						"object": "CtrlSwap"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 729767349952797
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "CtrlSwap",
+					"sid": 518809456945021,
+					"parameters": {
+						"object": "Player2",
+						"layer": "2",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 204748206156256,
+					"parameters": {
+						"seconds": "10"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "CtrlSwap",
+					"sid": 496027105360426
+				}
+			],
+			"sid": 319686247051346
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Player2",
+					"sid": 402629401280609
+				}
+			],
+			"actions": [
+				{
+					"id": "set-jump-strength",
+					"objectClass": "Player2",
+					"sid": 858692630119760,
+					"behaviorType": "Platform",
+					"parameters": {
+						"jump-strength": "950"
+					}
+				}
+			],
+			"sid": 424041629075816
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Player2",
+					"sid": 583785237227403
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "Player2",
+					"sid": 106167953658627,
+					"parameters": {
+						"width": "75.008064",
+						"height": "126.329371"
+					}
+				}
+			],
+			"sid": 429242929687049
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Player3",
+					"sid": 933189319563509
+				}
+			],
+			"actions": [
+				{
+					"id": "set-jump-strength",
+					"objectClass": "Player3",
+					"sid": 153667490604594,
+					"behaviorType": "Platform",
+					"parameters": {
+						"jump-strength": "680"
+					}
+				},
+				{
+					"id": "set-max-speed",
+					"objectClass": "Player3",
+					"sid": 566100304428295,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-speed": "650"
+					}
+				}
+			],
+			"sid": 302244273851177
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 708389556562824,
+					"parameters": {
+						"object": "CtrlSwap2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Player2",
+					"sid": 440310719997065
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "CtrlSwap2",
+					"sid": 313018112096386,
+					"parameters": {
+						"object": "Player3",
+						"layer": "2",
+						"image-point": "0"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 751010217697891,
+					"parameters": {
+						"seconds": "10"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "CtrlSwap2",
+					"sid": 358562183574829
+				}
+			],
+			"sid": 181902613042868
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Player3",
+					"sid": 660131984383601
+				}
+			],
+			"actions": [
+				{
+					"id": "set-size",
+					"objectClass": "Player3",
+					"sid": 251994790948673,
+					"parameters": {
+						"width": "75.008064",
+						"height": "126.329371"
+					}
+				}
+			],
+			"sid": 141043256667535
+		},
+		{
+			"eventType": "comment",
+			"text": "Quick fix to make some Bullets Dissapear eassier "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CtrlSwap",
+					"sid": 414035234983872,
+					"parameters": {
+						"object": "EnemyBlock1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 345425283973863
+				}
+			],
+			"sid": 968101983679324
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CtrlSwap",
+					"sid": 313645982903636,
+					"parameters": {
+						"object": "EnemyBlock2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock2",
+					"sid": 832004517735913
+				}
+			],
+			"sid": 685753886858475
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CtrlSwap2",
+					"sid": 823073541489480,
+					"parameters": {
+						"object": "EnemyBlock1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 666092336608397
+				}
+			],
+			"sid": 946497345575501
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CtrlSwap2",
+					"sid": 585852003306753,
+					"parameters": {
+						"object": "EnemyBlock2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock2",
+					"sid": 702596837715369
+				}
+			],
+			"sid": 874097050608592
+		},
+		{
+			"eventType": "comment",
+			"text": "Getting the Hope Block Which Can make you imune for a sec if u prees I to use it/ HopeBlock1 destroys as well no more use"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 853803024975606,
+					"parameters": {
+						"object": "HopeBlockOG"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "ItemPhotoPLaceHolder",
+					"sid": 712758720690482,
+					"parameters": {
+						"object": "HopeBlock2",
+						"layer": "1",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "ItemPhotoPLaceHolder",
+					"sid": 963036200218158,
+					"parameters": {
+						"object": "PressI",
+						"layer": "1",
+						"image-point": "2"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "HopeBlockOG",
+					"sid": 423425255212545
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 203866442049007,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "PressI",
+					"sid": 607103320232039
+				}
+			],
+			"sid": 206512115075935
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 937014773257156,
+					"parameters": {
+						"object": "HopeBlockOG2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "PressIStaionary",
+					"sid": 426603580996151
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "ItemPhotoPLaceHolder",
+					"sid": 244960859267433,
+					"parameters": {
+						"object": "HopeBlock3",
+						"layer": "1",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "ItemPhotoPLaceHolder",
+					"sid": 447637698972939,
+					"parameters": {
+						"object": "PressW",
+						"layer": "1",
+						"image-point": "2"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "HopeBlockOG2",
+					"sid": 479034775053869
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 501405341623189,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "PressW",
+					"sid": 309558684652208
+				}
+			],
+			"sid": 109263402515463
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "PressW",
+					"sid": 506642670400971
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "ItemPhotoPLaceHolder",
+					"sid": 429652805355152,
+					"parameters": {
+						"object": "PressIStaionaryW",
+						"layer": "1",
+						"image-point": "2"
+					}
+				}
+			],
+			"sid": 332336231130645
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "PressI",
+					"sid": 459611925979225
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "ItemPhotoPLaceHolder",
+					"sid": 312124102659837,
+					"parameters": {
+						"object": "PressIStaionary",
+						"layer": "1",
+						"image-point": "2"
+					}
+				}
+			],
+			"sid": 377821509806735
+		},
+		{
+			"eventType": "comment",
+			"text": "player Can press I to use Immune / This should make it so that when the HopeBlock hits the player he goes immune to the red bullets and the turt will stop shooting at player, you can only grab hopeblock Once"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 932680100550121,
+					"parameters": {
+						"key": 73
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "HopeBlock2",
+					"sid": 926765887410627
+				},
+				{
+					"id": "destroy",
+					"objectClass": "PressIStaionary",
+					"sid": 501487006168095
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "ForeField",
+					"sid": 703049179395337,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "scale",
+						"height-type": "scale",
+						"z": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 779441509551354,
+					"parameters": {
+						"seconds": "3.5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "ForeField",
+					"sid": 610965255432312
+				}
+			],
+			"sid": 893509823554748
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 836722476578785,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-double-jump",
+					"objectClass": "Player2",
+					"sid": 509339893654817,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "HopeBlock3",
+					"sid": 481210456557741
+				}
+			],
+			"sid": 154060000514299
+		},
+		{
+			"eventType": "comment",
+			"text": "Slide Ctrl's/ Ctrl's in general "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 442605941276645,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player",
+					"sid": 164298684888986
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 219424955167163,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 279452355040511
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 181296087751069,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player",
+					"sid": 103774935066973,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 146306929523092,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 481931656909091
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Player",
+					"sid": 852346116205743,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player",
+					"sid": 819149390724021,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 991276253128210,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 229746158372667
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Player",
+					"sid": 986548043501837,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player",
+					"sid": 272231298177263,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 314467514264981,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 641450055891660
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Player",
+					"sid": 873550467362489,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 583924273599045,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 797711215965318
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 517311786929277,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player2",
+					"sid": 788427285061018
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player2",
+					"sid": 627457505707000,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 649383090389928
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 554135707516080,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player2",
+					"sid": 269270679961356,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player2",
+					"sid": 741992990176071,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 328287347143718
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Player2",
+					"sid": 889160500412007,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player2",
+					"sid": 185209912724440,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player2",
+					"sid": 583551205161053,
+					"parameters": {
+						"animation": "\"run2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 406793090449798
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Player2",
+					"sid": 934425442607123,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player2",
+					"sid": 863700122405490,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player2",
+					"sid": 141467887472799,
+					"parameters": {
+						"animation": "\"Idle2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 130409627783102
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Player2",
+					"sid": 730369137996352,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player2",
+					"sid": 950262586369862,
+					"parameters": {
+						"animation": "\"Jump2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 847316690227528
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 184945651029764,
+					"parameters": {
+						"key": 39
+					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player3",
+					"sid": 857365697393118
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player3",
+					"sid": 308546545832624,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 117468253913439
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 418907789401519,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player3",
+					"sid": 615952610993666,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player3",
+					"sid": 154535737879558,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 797185643117065
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Player3",
+					"sid": 522594544192013,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player3",
+					"sid": 128632551427998,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player3",
+					"sid": 234775680524942,
+					"parameters": {
+						"animation": "\"Run3\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 250576218848877
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Player3",
+					"sid": 872884713087342,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player3",
+					"sid": 248715000879227,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player3",
+					"sid": 312510315467483,
+					"parameters": {
+						"animation": "\"Idle3\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 622489568478898
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Player3",
+					"sid": 867688583508329,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player3",
+					"sid": 729173049892858,
+					"parameters": {
+						"animation": "\"Jump3\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 444762600439791
+		},
+		{
+			"eventType": "comment",
+			"text": "Makes Turts Destroy overall on lvl, player can go back to grab Scroll of Immunity "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 421119572166762,
+					"parameters": {
+						"object": "Key"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "InvisWall2",
+					"sid": 534128457705011
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Key",
+					"sid": 744466443750063,
+					"parameters": {
+						"object": "Key_Grab",
+						"layer": "2",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Key",
+					"sid": 675214351987388
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts",
+					"sid": 702097829128220
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts2",
+					"sid": 702455283157722
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts9",
+					"sid": 628862375271152
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 132906535145769
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock2",
+					"sid": 515570645113307
+				}
+			],
+			"sid": 685637813404223
+		},
+		{
+			"eventType": "comment",
+			"text": "Second Phase Turts"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player2",
+					"sid": 402314442301417,
+					"parameters": {
+						"object": "Key2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "InvisWall",
+					"sid": 504082656899165
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Key2",
+					"sid": 100664690869964,
+					"parameters": {
+						"object": "Key_Grab",
+						"layer": "2",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Key2",
+					"sid": 317397675829207
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts4",
+					"sid": 521580088315519
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts5",
+					"sid": 960116457789963
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts6",
+					"sid": 247022635267392
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts7",
+					"sid": 125986338478895
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Turts8",
+					"sid": 405645588059334
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock3",
+					"sid": 586325518558368
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock4",
+					"sid": 739252281617126
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock5",
+					"sid": 173252618153677
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock6",
+					"sid": 602982480680357
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock7",
+					"sid": 671971607655965
+				}
+			],
+			"sid": 210351366266337
+		},
+		{
+			"eventType": "comment",
+			"text": "PH>ASE 3 "
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player3",
+					"sid": 744175292213900,
+					"parameters": {
+						"object": "Plat2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "shake",
+					"objectClass": "Player3",
+					"sid": 702520057853884,
+					"behaviorType": "ScrollTo",
+					"parameters": {
+						"magnitude": "10",
+						"duration": "2",
+						"mode": "constant-magnitude"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 829854804314382,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Plat2",
+					"sid": 582026128445524
+				}
+			],
+			"sid": 489718164181470
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player3",
+					"sid": 188727350456027,
+					"parameters": {
+						"object": "Key3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Key3",
+					"sid": 714651139152456,
+					"parameters": {
+						"animation": "\"GJYOUWIN\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Key3",
+					"sid": 655258870801360,
+					"parameters": {
+						"object": "Key_Grab",
+						"layer": "2",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 400998768053188,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 144376850844454,
+					"parameters": {
+						"layout": "\"StartPAge\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 399577937447173,
+					"parameters": {
+						"tag": "\"Avatar\""
+					}
+				}
+			],
+			"sid": 451956826794880
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player3",
+					"sid": 408969841117989,
+					"parameters": {
+						"object": "DeadFloor"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 960771923115374,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 511391178684455
+				}
+			],
+			"sid": 420357213057614
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 799704092513848,
+					"parameters": {
+						"object": "MusicBar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 933931335318924,
+					"parameters": {
+						"tag": "\"Sonic\""
+					}
+				}
+			],
+			"sid": 839324708975566
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 231647112091002,
+					"parameters": {
+						"object": "OnMusic"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 694240794247655,
+					"parameters": {
+						"audio-file": "Credits - Avatar The Last Airbender Soundtrack",
+						"loop": "looping",
+						"volume": "-30",
+						"tag-optional": "\"Avatar\""
+					}
+				}
+			],
+			"sid": 265927905346417
+		}
+	],
+	"sid": 444953107164376
+}

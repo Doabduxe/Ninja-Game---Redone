@@ -1,0 +1,70 @@
+{
+	"name": "Turts10",
+	"plugin-id": "Sprite",
+	"sid": 148595586300188,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 298405388981325
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 112,
+						"height": 59,
+						"originX": 0.4642857142857143,
+						"originY": 0.576271186440678,
+						"originalSource": "C:\\Users\\D\\Pictures\\unknown.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4735725,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.576271186440678,
+								1,
+								1,
+								0.4642857142857143,
+								1,
+								0,
+								1,
+								0,
+								0.576271186440678,
+								0,
+								0,
+								0.4642857142857143,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.9196428571428571,
+								"y": 0.4745762711864407
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 303364652143006,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

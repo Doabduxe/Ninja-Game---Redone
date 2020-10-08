@@ -1,0 +1,67 @@
+{
+	"name": "ForeField",
+	"plugin-id": "Sprite",
+	"sid": 761555065918771,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 560532343045502
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 25,
+						"height": 34,
+						"originX": 0.52,
+						"originY": 0.47058823529411764,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4796297,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 25,
+						"height": 34,
+						"originX": 0.52,
+						"originY": 0.47058823529411764,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4916584,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 25,
+						"height": 34,
+						"originX": 0.52,
+						"originY": 0.47058823529411764,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 264320,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 517182398390939,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

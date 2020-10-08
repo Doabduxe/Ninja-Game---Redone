@@ -1,0 +1,51 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Start",
+					"sid": 666503379922169
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 862824907272553,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 562934034503734
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 559149315066019
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 947390161785439,
+					"parameters": {
+						"audio-file": "ChunNan - Dragon Road Day - Sonic Unleashed Music Extended [Music OST][Original Soundtrack]",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"Sonic\""
+					}
+				}
+			],
+			"sid": 802632787841205
+		}
+	],
+	"sid": 644608586837420
+}
