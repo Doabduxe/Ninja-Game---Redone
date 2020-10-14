@@ -52,10 +52,19 @@
 						{
 							"id": "add-object-to-target",
 							"objectClass": "HopeTurt2",
-							"sid": 745933565021937,
+							"sid": 564101784138187,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player2"
+								"target": "Player"
+							}
+						},
+						{
+							"id": "add-object-to-target",
+							"objectClass": "HopeTurt3",
+							"sid": 549528745992393,
+							"behaviorType": "Turret",
+							"parameters": {
+								"target": "Player"
 							}
 						},
 						{
@@ -70,82 +79,82 @@
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts4",
-							"sid": 218832380495011,
+							"sid": 230176923844827,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player2"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts5",
-							"sid": 223418136194366,
+							"sid": 171991150251666,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player2"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts6",
-							"sid": 173686384963094,
+							"sid": 764777562479063,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player2"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts7",
-							"sid": 795503987609156,
+							"sid": 660970557634339,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player2"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts8",
-							"sid": 234809156156199,
+							"sid": 360076494119226,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player2"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts10",
-							"sid": 638684142260406,
+							"sid": 370873072785808,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player3"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts11",
-							"sid": 660140243108358,
+							"sid": 193806238236557,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player3"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts12",
-							"sid": 473355305782098,
+							"sid": 895477310479748,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player3"
+								"target": "Player"
 							}
 						},
 						{
 							"id": "add-object-to-target",
 							"objectClass": "Turts13",
-							"sid": 428948789611100,
+							"sid": 501129047205021,
 							"behaviorType": "Turret",
 							"parameters": {
-								"target": "Player3"
+								"target": "Player"
 							}
 						}
 					],
@@ -290,6 +299,38 @@
 						}
 					],
 					"sid": 451257555875908
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-shoot",
+							"objectClass": "HopeTurt3",
+							"sid": 410049717386282,
+							"behaviorType": "Turret"
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 237870665760677,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "HopeTurt3",
+							"sid": 923310507258906,
+							"parameters": {
+								"object": "HopeBlockOG",
+								"layer": "2",
+								"image-point": "1"
+							}
+						}
+					],
+					"sid": 777483253316589
 				},
 				{
 					"eventType": "block",
@@ -708,7 +749,8 @@
 							}
 						}
 					],
-					"sid": 710932328480871
+					"sid": 710932328480871,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -735,7 +777,8 @@
 							}
 						}
 					],
-					"sid": 231953949348954
+					"sid": 231953949348954,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -762,7 +805,8 @@
 							}
 						}
 					],
-					"sid": 705332450329713
+					"sid": 705332450329713,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -789,7 +833,8 @@
 							}
 						}
 					],
-					"sid": 439706162387161
+					"sid": 439706162387161,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -816,7 +861,8 @@
 							}
 						}
 					],
-					"sid": 771709244388612
+					"sid": 771709244388612,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -843,7 +889,8 @@
 							}
 						}
 					],
-					"sid": 554544519876774
+					"sid": 554544519876774,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -870,7 +917,8 @@
 							}
 						}
 					],
-					"sid": 757834055815216
+					"sid": 757834055815216,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -897,7 +945,8 @@
 							}
 						}
 					],
-					"sid": 171183908919091
+					"sid": 171183908919091,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -924,7 +973,8 @@
 							}
 						}
 					],
-					"sid": 348078979758804
+					"sid": 348078979758804,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -951,7 +1001,8 @@
 							}
 						}
 					],
-					"sid": 803980998996379
+					"sid": 803980998996379,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -978,7 +1029,8 @@
 							}
 						}
 					],
-					"sid": 186866650956476
+					"sid": 186866650956476,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1005,7 +1057,8 @@
 							}
 						}
 					],
-					"sid": 604586736088449
+					"sid": 604586736088449,
+					"disabled": true
 				}
 			],
 			"sid": 623079571555847
@@ -1076,8 +1129,158 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 249560774193361,
+							"parameters": {
+								"object": "EnemyBlock3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 904539662518332,
+							"parameters": {
+								"instance-variable": "HP_1",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 794667119044477
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 954715939712154,
+							"parameters": {
+								"object": "EnemyBlock4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 124514333754229,
+							"parameters": {
+								"instance-variable": "HP_1",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 668665898998354
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 576740149043164,
+							"parameters": {
+								"object": "EnemyBlock5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 272762902960693,
+							"parameters": {
+								"instance-variable": "HP_1",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 135136475989830
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 717059881753233,
+							"parameters": {
+								"object": "EnemyBlock6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 897947907120870,
+							"parameters": {
+								"instance-variable": "HP_1",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 500603031839969
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 619424602382403,
+							"parameters": {
+								"object": "EnemyBlock7"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 180099919901451,
+							"parameters": {
+								"instance-variable": "HP_1",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 504777233568780
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 219496641968698,
+							"parameters": {
+								"object": "EnemyBlock8"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 592692554024436,
+							"parameters": {
+								"instance-variable": "HP_1",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 566919399552858
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
 							"objectClass": "Player2",
-							"sid": 438149047156911,
+							"sid": 335063332987563,
 							"parameters": {
 								"object": "EnemyBlock3"
 							}
@@ -1087,14 +1290,15 @@
 						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player2",
-							"sid": 140113262031165,
+							"sid": 155708837416531,
 							"parameters": {
 								"instance-variable": "Hp_2",
 								"value": "1"
 							}
 						}
 					],
-					"sid": 737299051811429
+					"sid": 602987306128457,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1119,7 +1323,8 @@
 							}
 						}
 					],
-					"sid": 361106658596869
+					"sid": 361106658596869,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1144,7 +1349,8 @@
 							}
 						}
 					],
-					"sid": 657162767532313
+					"sid": 657162767532313,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1169,7 +1375,8 @@
 							}
 						}
 					],
-					"sid": 256789283421069
+					"sid": 256789283421069,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1194,7 +1401,8 @@
 							}
 						}
 					],
-					"sid": 278438425750135
+					"sid": 278438425750135,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1219,7 +1427,8 @@
 							}
 						}
 					],
-					"sid": 476408999236766
+					"sid": 476408999236766,
+					"disabled": true
 				}
 			],
 			"sid": 313508267506190
@@ -1390,9 +1599,55 @@
 								"layer": "2",
 								"image-point": "2"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "HopeTurt3",
+							"sid": 879172241837532
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "HopeTurt3",
+							"sid": 740005911106307,
+							"parameters": {
+								"object": "Key_Grab",
+								"layer": "2",
+								"image-point": "2"
+							}
 						}
 					],
 					"sid": 325799754542156
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "HopeBlockOG2",
+							"sid": 108308857972986,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "HopeTurt2",
+							"sid": 995970384673987
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "HopeTurt2",
+							"sid": 159569234101858,
+							"parameters": {
+								"object": "Key_Grab",
+								"layer": "2",
+								"image-point": "2"
+							}
+						}
+					],
+					"sid": 223285470570761
 				},
 				{
 					"eventType": "block",
@@ -1423,7 +1678,8 @@
 							}
 						}
 					],
-					"sid": 865368392980489
+					"sid": 865368392980489,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -1509,8 +1765,8 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Player2",
-							"sid": 952116133503286,
+							"objectClass": "Player",
+							"sid": 396056623717462,
 							"parameters": {
 								"object": "HopeBlockOG2"
 							}
@@ -1525,10 +1781,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "ItemPhotoPLaceHolder",
-							"sid": 517400318049180,
+							"sid": 733528704768643,
 							"parameters": {
 								"object": "HopeBlock3",
-								"layer": "1",
+								"layer": "3",
 								"image-point": "1"
 							}
 						},
@@ -2159,7 +2415,8 @@
 							}
 						}
 					],
-					"sid": 260379775030288
+					"sid": 260379775030288,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2189,7 +2446,8 @@
 							}
 						}
 					],
-					"sid": 421819874750785
+					"sid": 421819874750785,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2218,7 +2476,8 @@
 							}
 						}
 					],
-					"sid": 616131091342193
+					"sid": 616131091342193,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2247,7 +2506,8 @@
 							}
 						}
 					],
-					"sid": 811194405454198
+					"sid": 811194405454198,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2270,7 +2530,8 @@
 							}
 						}
 					],
-					"sid": 853088001784541
+					"sid": 853088001784541,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2299,7 +2560,8 @@
 							}
 						}
 					],
-					"sid": 354639669824073
+					"sid": 354639669824073,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2329,7 +2591,8 @@
 							}
 						}
 					],
-					"sid": 725102909130833
+					"sid": 725102909130833,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2358,7 +2621,8 @@
 							}
 						}
 					],
-					"sid": 455240456354781
+					"sid": 455240456354781,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2387,7 +2651,8 @@
 							}
 						}
 					],
-					"sid": 178934410956907
+					"sid": 178934410956907,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2410,7 +2675,8 @@
 							}
 						}
 					],
-					"sid": 994665200071080
+					"sid": 994665200071080,
+					"disabled": true
 				},
 				{
 					"eventType": "comment",
@@ -2548,6 +2814,92 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 645746565538506,
+							"parameters": {
+								"object": "Key2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "InvisWall",
+							"sid": 280459561159450
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Key2",
+							"sid": 866549326907772,
+							"parameters": {
+								"object": "Key_Grab",
+								"layer": "2",
+								"image-point": "1"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Key2",
+							"sid": 296420684373961
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Turts4",
+							"sid": 881777240940050
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Turts5",
+							"sid": 582922158140510
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Turts6",
+							"sid": 312600285457754
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Turts7",
+							"sid": 668377971079827
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Turts8",
+							"sid": 411013000424601
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock3",
+							"sid": 849979291206777
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock4",
+							"sid": 156262055204332
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock5",
+							"sid": 320059720258190
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock6",
+							"sid": 506295016190688
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock7",
+							"sid": 528047481894933
+						}
+					],
+					"sid": 561114629634529
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
 							"objectClass": "Player2",
 							"sid": 366470394955231,
 							"parameters": {
@@ -2627,11 +2979,143 @@
 							"sid": 915495672103044
 						}
 					],
-					"sid": 792476972962426
+					"sid": 792476972962426,
+					"disabled": true
 				},
 				{
 					"eventType": "comment",
 					"text": "PHASE 3 "
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 943157588883490,
+							"parameters": {
+								"object": "Plat2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "shake",
+							"objectClass": "Player",
+							"sid": 338832114110178,
+							"behaviorType": "ScrollTo",
+							"parameters": {
+								"magnitude": "10",
+								"duration": "2",
+								"mode": "constant-magnitude"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 489998865470463,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Plat2",
+							"sid": 348010497100740
+						}
+					],
+					"sid": 797172319781285
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 269344613789887,
+							"parameters": {
+								"object": "Key3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Key3",
+							"sid": 617911128630511,
+							"parameters": {
+								"animation": "\"GJYOUWIN\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Key3",
+							"sid": 879413999262325,
+							"parameters": {
+								"object": "Key_Grab",
+								"layer": "2",
+								"image-point": "1"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 571051001427767,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 279496532047231,
+							"parameters": {
+								"layout": "\"StartPAge\""
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 155545915805112,
+							"parameters": {
+								"tag": "\"Avatar\""
+							}
+						}
+					],
+					"sid": 924466225695125
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 364909229312088,
+							"parameters": {
+								"object": "DeadFloor"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 604203986573877,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 326237086132285,
+							"parameters": {
+								"layout": "Game Over Layout"
+							}
+						}
+					],
+					"sid": 163268048815827
 				},
 				{
 					"eventType": "block",
@@ -2671,7 +3155,8 @@
 							"sid": 138999532368926
 						}
 					],
-					"sid": 858933965081485
+					"sid": 858933965081485,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -2730,36 +3215,8 @@
 							}
 						}
 					],
-					"sid": 818975474267343
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Player3",
-							"sid": 540271871878937,
-							"parameters": {
-								"object": "DeadFloor"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 791374053708588,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 161703556278986
-						}
-					],
-					"sid": 500057674490535
+					"sid": 818975474267343,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
