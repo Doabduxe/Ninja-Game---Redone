@@ -184,6 +184,17 @@
 								"layer": "2",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 729598586556958,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 404054767551643
@@ -240,6 +251,17 @@
 								"layer": "2",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 943990712919845,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 518958349065646
@@ -263,6 +285,17 @@
 								"object": "EnemyBlock2",
 								"layer": "2",
 								"image-point": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 283314516679503,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -352,6 +385,17 @@
 								"layer": "2",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 788478987479357,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 519447381854072
@@ -375,6 +419,17 @@
 								"object": "EnemyBlock4",
 								"layer": "2",
 								"image-point": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 404155035661163,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -400,6 +455,17 @@
 								"layer": "2",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 580439115823094,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 470244262167632
@@ -423,6 +489,17 @@
 								"object": "EnemyBlock6",
 								"layer": "2",
 								"image-point": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 650998893061511,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -448,6 +525,17 @@
 								"layer": "2",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 981437187942934,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 867675582036774
@@ -471,6 +559,17 @@
 								"object": "EnemyBlock8",
 								"layer": "2",
 								"image-point": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 526151515257695,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -496,6 +595,17 @@
 								"layer": "2",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 418667618048031,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 473945545941341
@@ -520,6 +630,17 @@
 								"layer": "2",
 								"image-point": "1"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 936874737171765,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 883141587609452
@@ -543,6 +664,17 @@
 								"object": "EnemyBlock8",
 								"layer": "2",
 								"image-point": "1"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 216035020565186,
+							"parameters": {
+								"audio-file": "Shuriken",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -1088,6 +1220,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 108097517018283,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 259086427515234,
@@ -1095,6 +1238,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock1",
+							"sid": 994584735976357
 						}
 					],
 					"sid": 507966302383273
@@ -1113,6 +1261,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 720573410935539,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 132829253890282,
@@ -1120,6 +1279,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock2",
+							"sid": 195791951896785
 						}
 					],
 					"sid": 879040654318243
@@ -1138,6 +1302,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 445897807776674,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 904539662518332,
@@ -1145,6 +1320,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock3",
+							"sid": 436432337226436
 						}
 					],
 					"sid": 794667119044477
@@ -1163,6 +1343,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 366149545808143,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 124514333754229,
@@ -1170,6 +1361,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock4",
+							"sid": 648638398774858
 						}
 					],
 					"sid": 668665898998354
@@ -1188,6 +1384,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 362079763588978,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 272762902960693,
@@ -1195,6 +1402,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock5",
+							"sid": 679618660497775
 						}
 					],
 					"sid": 135136475989830
@@ -1213,6 +1425,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 211154382883121,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 897947907120870,
@@ -1220,6 +1443,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock6",
+							"sid": 433575989463058
 						}
 					],
 					"sid": 500603031839969
@@ -1238,6 +1466,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 786269192671601,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 180099919901451,
@@ -1245,6 +1484,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock7",
+							"sid": 222415402097528
 						}
 					],
 					"sid": 504777233568780
@@ -1263,6 +1507,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 429631742958939,
+							"parameters": {
+								"audio-file": "Hit",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "subtract-from-instvar",
 							"objectClass": "Player",
 							"sid": 592692554024436,
@@ -1270,6 +1525,11 @@
 								"instance-variable": "HP_1",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "EnemyBlock8",
+							"sid": 142416524626716
 						}
 					],
 					"sid": 566919399552858
@@ -2758,6 +3018,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 498702241427688,
+							"parameters": {
+								"audio-file": "Key",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "destroy",
 							"objectClass": "InvisWall2",
 							"sid": 684510054261266
@@ -2822,6 +3093,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 483098969040934,
+							"parameters": {
+								"audio-file": "Key",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "destroy",
 							"objectClass": "InvisWall",
@@ -3039,6 +3321,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 851378391357997,
+							"parameters": {
+								"audio-file": "Key",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-animation",
 							"objectClass": "Key3",
@@ -3382,6 +3675,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock1",
 							"sid": 483459072066019
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 180960723524951,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 364530528706768
@@ -3403,6 +3707,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock2",
 							"sid": 186379624763286
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 657587820279686,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 209171960013526
@@ -3424,6 +3739,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock3",
 							"sid": 297412500386197
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 958650327013089,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 667497791537606
@@ -3445,6 +3771,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock4",
 							"sid": 108550739298516
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 601709324182466,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 861699854330615
@@ -3466,6 +3803,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock5",
 							"sid": 197148716673439
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 414886815177525,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 549578945373406
@@ -3487,6 +3835,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock6",
 							"sid": 527724903039154
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 960438351567206,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 316070015869872
@@ -3508,6 +3867,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock7",
 							"sid": 961632215505225
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 280194310804035,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 895351032066549
@@ -3529,6 +3899,17 @@
 							"id": "destroy",
 							"objectClass": "EnemyBlock8",
 							"sid": 771353806837669
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 380058968348085,
+							"parameters": {
+								"audio-file": "Shield",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 916580050631378

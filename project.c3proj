@@ -246,7 +246,43 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "JUmp.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 514672289089728
+				},
+				{
+					"name": "Running.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 413431710353583
+				},
+				{
+					"name": "Shuriken.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 452474242436414
+				},
+				{
+					"name": "Powerup.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 418942531989351
+				},
+				{
+					"name": "Shield.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 873789087339424
+				},
+				{
+					"name": "Hit.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 251683040168729
+				},
+				{
+					"name": "Key.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 539684603297874
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
