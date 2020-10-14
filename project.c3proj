@@ -55,6 +55,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -200,7 +208,13 @@
 			"Audio",
 			"MusicBar",
 			"OnMusic",
-			"SuperBG"
+			"SuperBG",
+			"Sprite",
+			"gameOverDeathScreen",
+			"Continue",
+			"YesText",
+			"NoText",
+			"Mouse"
 		],
 		"subfolders": []
 	},
@@ -213,7 +227,8 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
-			"StartPAge"
+			"StartPAge",
+			"Game Over Layout"
 		],
 		"subfolders": []
 	},

@@ -2676,6 +2676,312 @@
 				}
 			],
 			"sid": 265927905346417
+		},
+		{
+			"eventType": "comment",
+			"text": "if HP reaches 0, turns them to the game over screen"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 346087347085024,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 274029453921386,
+					"parameters": {
+						"layout": "Game Over Layout"
+					}
+				}
+			],
+			"sid": 105855082220083
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player2",
+					"sid": 206654762475167,
+					"parameters": {
+						"instance-variable": "Hp_2",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 591771342365104,
+					"parameters": {
+						"layout": "Game Over Layout"
+					}
+				}
+			],
+			"sid": 577675683888529
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player3",
+					"sid": 661139196072431,
+					"parameters": {
+						"instance-variable": "Hp_3",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 771017189399198,
+					"parameters": {
+						"layout": "Game Over Layout"
+					}
+				}
+			],
+			"sid": 782150285864150
+		},
+		{
+			"eventType": "comment",
+			"text": "Field protection"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 157201490773723,
+					"parameters": {
+						"object": "EnemyBlock1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 328041308845125
+				}
+			],
+			"sid": 554699400430601
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 813973492599636,
+					"parameters": {
+						"object": "EnemyBlock2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock2",
+					"sid": 139309039528952
+				}
+			],
+			"sid": 203053464875883
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 950121658996650,
+					"parameters": {
+						"object": "EnemyBlock3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock3",
+					"sid": 309158194601849
+				}
+			],
+			"sid": 919567373543725
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 465906910466574,
+					"parameters": {
+						"object": "EnemyBlock4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock4",
+					"sid": 962893604010361
+				}
+			],
+			"sid": 205733422655882
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 991921342205239,
+					"parameters": {
+						"object": "EnemyBlock5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock5",
+					"sid": 563717930681824
+				}
+			],
+			"sid": 909159691999007
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 987443804427156,
+					"parameters": {
+						"object": "EnemyBlock6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock6",
+					"sid": 260546951445840
+				}
+			],
+			"sid": 608392845086468
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 723314019427366,
+					"parameters": {
+						"object": "EnemyBlock7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock7",
+					"sid": 471985527613747
+				}
+			],
+			"sid": 377125396127213
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ForeField",
+					"sid": 712206995074656,
+					"parameters": {
+						"object": "EnemyBlock8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock8",
+					"sid": 657678055989375
+				}
+			],
+			"sid": 540597582338307
+		},
+		{
+			"eventType": "comment",
+			"text": "Game over screen selection"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 611318686607933,
+					"parameters": {
+						"key": 89
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 695005601210277,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 464253485845367
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 565859030796916,
+					"parameters": {
+						"key": 78
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 630281364573954,
+					"parameters": {
+						"layout": "StartPAge"
+					}
+				}
+			],
+			"sid": 909317180311403
 		}
 	],
 	"sid": 444953107164376
