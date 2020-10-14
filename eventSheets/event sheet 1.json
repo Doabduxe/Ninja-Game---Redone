@@ -1791,10 +1791,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "ItemPhotoPLaceHolder",
-							"sid": 267056480130101,
+							"sid": 750416424559627,
 							"parameters": {
 								"object": "PressW",
-								"layer": "1",
+								"layer": "3",
 								"image-point": "2"
 							}
 						},
@@ -2229,8 +2229,8 @@
 					"actions": [
 						{
 							"id": "set-double-jump",
-							"objectClass": "Player2",
-							"sid": 944112188343786,
+							"objectClass": "Player",
+							"sid": 453038801669550,
 							"behaviorType": "Platform",
 							"parameters": {
 								"state": "enabled"
