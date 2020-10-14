@@ -1787,48 +1787,6 @@
 					"sid": 147881097378522
 				},
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "EnemyBlock1",
-							"sid": 698499995691530,
-							"parameters": {
-								"object": "Player"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "EnemyBlock1",
-							"sid": 570178299641977
-						}
-					],
-					"sid": 312095076857279
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "EnemyBlock2",
-							"sid": 654078852707526,
-							"parameters": {
-								"object": "Player"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "EnemyBlock2",
-							"sid": 644403167552052
-						}
-					],
-					"sid": 121314957975775
-				},
-				{
 					"eventType": "comment",
 					"text": "This should make it so that when the HopeBlock hits the player he goes immune to the red bullets and the turt will stop shooting at player, you can only grab hopeblock Once"
 				},
@@ -1980,6 +1938,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 824940392243572,
+							"parameters": {
+								"audio-file": "Powerup",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "spawn-another-object",
 							"objectClass": "ItemPhotoPLaceHolder",
 							"sid": 167020715098997,
@@ -2033,6 +2002,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 783409259016637,
+							"parameters": {
+								"audio-file": "Powerup",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "destroy",
 							"objectClass": "PressIStaionary",
@@ -2533,6 +2513,17 @@
 							"parameters": {
 								"state": "not-mirrored"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 588546043290759,
+							"parameters": {
+								"audio-file": "Running",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 182577997922092
@@ -2563,9 +2554,47 @@
 							"parameters": {
 								"state": "mirrored"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 233727743112147,
+							"parameters": {
+								"audio-file": "Running",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 941931875033108
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 957910952417874,
+							"parameters": {
+								"key": 38
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 453019748834334,
+							"parameters": {
+								"audio-file": "JUmp",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 661937803932813
 				},
 				{
 					"eventType": "block",
