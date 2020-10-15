@@ -223,7 +223,7 @@
 							"objectClass": "HopeTurt2",
 							"sid": 452672625938099,
 							"parameters": {
-								"object": "HopeBlockOG2",
+								"object": "DoubleJumpScroll",
 								"layer": "2",
 								"image-point": "1"
 							}
@@ -325,7 +325,7 @@
 							"objectClass": "HopeTurt",
 							"sid": 192058619481314,
 							"parameters": {
-								"object": "HopeBlockOG",
+								"object": "InvincibilityScroll",
 								"layer": "2",
 								"image-point": "1"
 							}
@@ -357,7 +357,7 @@
 							"objectClass": "HopeTurt3",
 							"sid": 923310507258906,
 							"parameters": {
-								"object": "HopeBlockOG",
+								"object": "InvincibilityScroll",
 								"layer": "2",
 								"image-point": "1"
 							}
@@ -1795,7 +1795,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "HopeBlockOG",
+							"objectClass": "InvincibilityScroll",
 							"sid": 409592374966619,
 							"parameters": {
 								"object": "Player"
@@ -1841,7 +1841,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "HopeBlockOG2",
+							"objectClass": "DoubleJumpScroll",
 							"sid": 108308857972986,
 							"parameters": {
 								"object": "Player"
@@ -1872,7 +1872,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "HopeBlockOG2",
+							"objectClass": "DoubleJumpScroll",
 							"sid": 561663797860269,
 							"parameters": {
 								"object": "Player2"
@@ -1904,7 +1904,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "CtrlSwap2",
+							"objectClass": "Bamboo2",
 							"sid": 682120520418220,
 							"parameters": {
 								"object": "EnemyBlock2"
@@ -1932,7 +1932,7 @@
 							"objectClass": "Player",
 							"sid": 553312510802146,
 							"parameters": {
-								"object": "HopeBlockOG"
+								"object": "InvincibilityScroll"
 							}
 						}
 					],
@@ -1970,7 +1970,7 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "HopeBlockOG",
+							"objectClass": "InvincibilityScroll",
 							"sid": 654764871247222
 						},
 						{
@@ -1997,7 +1997,7 @@
 							"objectClass": "Player",
 							"sid": 396056623717462,
 							"parameters": {
-								"object": "HopeBlockOG2"
+								"object": "DoubleJumpScroll"
 							}
 						}
 					],
@@ -2040,7 +2040,7 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "HopeBlockOG2",
+							"objectClass": "DoubleJumpScroll",
 							"sid": 172102978436961
 						},
 						{
@@ -2127,7 +2127,7 @@
 							"objectClass": "Player",
 							"sid": 649329044233032,
 							"parameters": {
-								"object": "CtrlSwap"
+								"object": "Bamboo1"
 							}
 						}
 					],
@@ -2139,7 +2139,7 @@
 						},
 						{
 							"id": "spawn-another-object",
-							"objectClass": "CtrlSwap",
+							"objectClass": "Bamboo1",
 							"sid": 303932809255092,
 							"parameters": {
 								"object": "Player2",
@@ -2157,7 +2157,7 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "CtrlSwap",
+							"objectClass": "Bamboo1",
 							"sid": 871240649058728
 						}
 					],
@@ -2250,7 +2250,7 @@
 							"objectClass": "Player2",
 							"sid": 530161210260076,
 							"parameters": {
-								"object": "CtrlSwap2"
+								"object": "Bamboo2"
 							}
 						}
 					],
@@ -2262,7 +2262,7 @@
 						},
 						{
 							"id": "spawn-another-object",
-							"objectClass": "CtrlSwap2",
+							"objectClass": "Bamboo2",
 							"sid": 948998931927607,
 							"parameters": {
 								"object": "Player3",
@@ -2280,7 +2280,7 @@
 						},
 						{
 							"id": "destroy",
-							"objectClass": "CtrlSwap2",
+							"objectClass": "Bamboo2",
 							"sid": 938995585051745
 						}
 					],
@@ -2329,7 +2329,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "CtrlSwap",
+							"objectClass": "Bamboo1",
 							"sid": 307739667992568,
 							"parameters": {
 								"object": "EnemyBlock1"
@@ -2350,7 +2350,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "CtrlSwap",
+							"objectClass": "Bamboo1",
 							"sid": 534262848347309,
 							"parameters": {
 								"object": "EnemyBlock2"
@@ -2371,7 +2371,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "CtrlSwap2",
+							"objectClass": "Bamboo2",
 							"sid": 517177706620716,
 							"parameters": {
 								"object": "EnemyBlock1"

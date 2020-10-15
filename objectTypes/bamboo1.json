@@ -1,0 +1,63 @@
+{
+	"name": "Bamboo1",
+	"plugin-id": "Sprite",
+	"sid": 809087695513938,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 806648569665116
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 324,
+						"height": 588,
+						"originX": 0.4012345679012346,
+						"originY": 0.7261904761904762,
+						"originalSource": "C:\\Users\\D\\Pictures\\Tree.jpg",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2112630,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.4012345679012346,
+								0,
+								1,
+								0,
+								1,
+								0.7261904761904762,
+								1,
+								1,
+								0.4012345679012346,
+								1,
+								0,
+								1,
+								0,
+								0.7261904761904762
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 656498561796309,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

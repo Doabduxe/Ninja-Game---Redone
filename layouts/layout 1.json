@@ -897,7 +897,7 @@
 					}
 				},
 				{
-					"type": "CtrlSwap",
+					"type": "Bamboo1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -937,7 +937,7 @@
 					}
 				},
 				{
-					"type": "CtrlSwap2",
+					"type": "Bamboo2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1285,7 +1285,7 @@
 					"behaviors": {
 						"Bullet": {
 							"properties": {
-								"speed": 400,
+								"speed": 800,
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
@@ -1402,7 +1402,7 @@
 					}
 				},
 				{
-					"type": "HopeBlockOG",
+					"type": "InvincibilityScroll",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2176,7 +2176,7 @@
 					}
 				},
 				{
-					"type": "HopeBlockOG2",
+					"type": "DoubleJumpScroll",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",

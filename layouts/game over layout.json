@@ -177,7 +177,7 @@
 				{
 					"type": "YesText",
 					"properties": {
-						"text": "Yes",
+						"text": "Yes (Y)",
 						"enable-bbcode": true,
 						"font": "Papyrus",
 						"size": 25,
@@ -200,9 +200,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 996,
-						"y": 589,
-						"width": 68,
+						"x": 950,
+						"y": 587,
+						"width": 123,
 						"height": 44,
 						"originX": 0,
 						"originY": 0,
@@ -219,7 +219,7 @@
 				{
 					"type": "NoText",
 					"properties": {
-						"text": "No",
+						"text": "No (N)",
 						"enable-bbcode": true,
 						"font": "Papyrus",
 						"size": 25,
@@ -242,9 +242,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1314,
-						"y": 593,
-						"width": 58,
+						"x": 1307,
+						"y": 586,
+						"width": 113,
 						"height": 42,
 						"originX": 0,
 						"originY": 0,
