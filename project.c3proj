@@ -215,7 +215,8 @@
 			"YesText",
 			"NoText",
 			"Mouse",
-			"HopeTurt3"
+			"HopeTurt3",
+			"DeadFloor2"
 		],
 		"subfolders": []
 	},
@@ -227,8 +228,10 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
 			"StartPAge",
+			"Layout 1",
+			"Layout 2",
+			"Layout 3",
 			"Game Over Layout"
 		],
 		"subfolders": []
@@ -236,7 +239,9 @@
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"Event sheet 2"
+			"Event sheet 2",
+			"Layout 2 Sheet",
+			"Layout 3 Sheet"
 		],
 		"subfolders": []
 	},
@@ -429,7 +434,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 2710,
-	"viewportHeight": 960,
+	"viewportWidth": 2000,
+	"viewportHeight": 1500,
 	"firstLayout": "StartPAge"
 }

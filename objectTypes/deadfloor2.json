@@ -1,16 +1,10 @@
 {
-	"name": "Platforms",
+	"name": "DeadFloor2",
 	"plugin-id": "Sprite",
-	"sid": 204466475987638,
+	"sid": 988993676869390,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 915129573660160
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,30 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 847227,
+						"imageSpriteId": 1234917,
+						"collisionPoly": {
+							"points": [
+								0.013999999999999973,
+								0.318,
+								0.276,
+								0.15599999999999997,
+								0.5109999999999996,
+								0.5249999999999999,
+								0.7984999999999998,
+								0.13649999999999957,
+								0.984,
+								0.4319999999999995,
+								1,
+								1,
+								0,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 454440367164995,
+				"sid": 154691073994232,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
