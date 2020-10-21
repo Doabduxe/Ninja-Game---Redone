@@ -782,6 +782,59 @@
 				}
 			],
 			"sid": 266917825361170
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 196831647241358,
+					"parameters": {
+						"object": "Key5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 368330204898629,
+					"parameters": {
+						"audio-file": "Key",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Key5",
+					"sid": 916897320690694,
+					"parameters": {
+						"object": "Key_Grab",
+						"layer": "0",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 649345866327656,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 305615625146953,
+					"parameters": {
+						"layout": "StartPAge"
+					}
+				}
+			],
+			"sid": 401589173329553
 		}
 	],
 	"sid": 424918505125854
