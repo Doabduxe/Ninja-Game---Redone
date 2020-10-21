@@ -361,9 +361,97 @@
 					"parameters": {
 						"state": "enabled"
 					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts",
+					"sid": 540337977056446,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts5",
+					"sid": 120886741084044,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
 				}
 			],
 			"sid": 667430346774980
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts",
+					"sid": 323276876621812,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts",
+					"sid": 293215468153295,
+					"parameters": {
+						"object": "EnemyBlock1",
+						"layer": "2",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 198955565552244,
+					"parameters": {
+						"audio-file": "Shuriken",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 803285847621928
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "Turts5",
+					"sid": 791539735134577,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts5",
+					"sid": 290467715218716,
+					"parameters": {
+						"object": "EnemyBlock4",
+						"layer": "2",
+						"image-point": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 678108991088574,
+					"parameters": {
+						"audio-file": "Shuriken",
+						"loop": "not-looping",
+						"volume": "-10",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 295901876135939
 		}
 	],
 	"sid": 424918505125854
