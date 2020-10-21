@@ -45,6 +45,27 @@
 				}
 			],
 			"sid": 802632787841205
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Restart",
+					"sid": 189735212277750
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 975544712896521,
+					"parameters": {
+						"layout": "StartPAge"
+					}
+				}
+			],
+			"sid": 859496488997750
 		}
 	],
 	"sid": 644608586837420

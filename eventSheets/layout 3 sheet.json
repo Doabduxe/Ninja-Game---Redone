@@ -828,9 +828,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 305615625146953,
+					"sid": 823462187970406,
 					"parameters": {
-						"layout": "StartPAge"
+						"layout": "You Win"
 					}
 				}
 			],
