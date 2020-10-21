@@ -283,15 +283,6 @@
 					"parameters": {
 						"target": "Player"
 					}
-				},
-				{
-					"id": "add-object-to-target",
-					"objectClass": "Turts2",
-					"sid": 423471482214169,
-					"behaviorType": "Turret",
-					"parameters": {
-						"target": "Player"
-					}
 				}
 			],
 			"sid": 877387238203780
@@ -403,64 +394,6 @@
 				}
 			],
 			"sid": 417661624886602
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-shoot",
-					"objectClass": "Turts2",
-					"sid": 956377768076956,
-					"behaviorType": "Turret"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-predictive-aim",
-					"objectClass": "Turts2",
-					"sid": 856041754042559,
-					"behaviorType": "Turret",
-					"parameters": {
-						"predictive-aim": "enabled"
-					}
-				}
-			],
-			"sid": 286049917679788
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-shoot",
-					"objectClass": "Turts2",
-					"sid": 306266626912248,
-					"behaviorType": "Turret"
-				}
-			],
-			"actions": [
-				{
-					"id": "spawn-another-object",
-					"objectClass": "Turts2",
-					"sid": 298856299226585,
-					"parameters": {
-						"object": "EnemyBlock2",
-						"layer": "2",
-						"image-point": "1"
-					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 310525058701250,
-					"parameters": {
-						"audio-file": "Shuriken",
-						"loop": "not-looping",
-						"volume": "0",
-						"tag-optional": "\"\""
-					}
-				}
-			],
-			"sid": 543365786108164
 		}
 	],
 	"sid": 647022773746996
