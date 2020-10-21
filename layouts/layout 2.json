@@ -25,9 +25,9 @@
 						}
 					},
 					"world": {
-						"x": 1001,
+						"x": 990.5,
 						"y": 2855,
-						"width": 2000,
+						"width": 2021,
 						"height": 301,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -499,35 +499,6 @@
 					}
 				},
 				{
-					"type": "Key",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 109,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 66,
-						"y": 855,
-						"width": 78.16648898345122,
-						"height": 78.16648898345122,
-						"originX": 0.5,
-						"originY": 0.375968992248062,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Platforms",
 					"properties": {
 						"initially-visible": true,
@@ -908,7 +879,7 @@
 								"range": 2000,
 								"rate-of-fire": 6,
 								"rotate": false,
-								"rotate-speed": 180,
+								"rotate-speed": 360,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
 								"projectile-speed": 500,
@@ -918,8 +889,8 @@
 						}
 					},
 					"world": {
-						"x": 2136,
-						"y": 1411,
+						"x": 1995,
+						"y": 1474,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
 						"originX": 0.0136986301369863,
@@ -930,7 +901,7 @@
 							1,
 							1
 						],
-						"angle": 6.039108402127421,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -991,8 +962,8 @@
 					"behaviors": {
 						"Turret": {
 							"properties": {
-								"range": 2000,
-								"rate-of-fire": 6,
+								"range": 4000,
+								"rate-of-fire": 7,
 								"rotate": false,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
@@ -1004,8 +975,8 @@
 						}
 					},
 					"world": {
-						"x": -203,
-						"y": 1008,
+						"x": 12,
+						"y": 1294,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
 						"originX": 0.0136986301369863,
@@ -1016,7 +987,7 @@
 							1,
 							1
 						],
-						"angle": 6.039108402127421,
+						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
 				},
@@ -1090,8 +1061,8 @@
 						}
 					},
 					"world": {
-						"x": 2184,
-						"y": 2525,
+						"x": 1987,
+						"y": 2277,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
 						"originX": 0.0136986301369863,
@@ -1102,12 +1073,12 @@
 							1,
 							1
 						],
-						"angle": 6.039108402127421,
+						"angle": 0,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "DeadFloor",
+					"type": "Key4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1115,16 +1086,60 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 125,
+					"uid": 155,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1766,
-						"y": 2714,
-						"width": 474.764193357164,
-						"height": 113.30577481474086,
+						"x": 147,
+						"y": 335,
+						"width": 82.96033778113863,
+						"height": 86.095300400007,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.375968992248062,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EnemyBlock1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 109,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 800,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						},
+						"DestroyOutsideLayout": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 2138,
+						"y": 1120,
+						"width": 54.028927543359245,
+						"height": 54.028927543359245,
+						"originX": 0.5087441493691495,
+						"originY": 0.5755176536426537,
 						"color": [
 							1,
 							1,

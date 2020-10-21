@@ -3362,15 +3362,6 @@
 							}
 						},
 						{
-							"id": "set-animation",
-							"objectClass": "Key3",
-							"sid": 617911128630511,
-							"parameters": {
-								"animation": "\"GJYOUWIN\"",
-								"from": "beginning"
-							}
-						},
-						{
 							"id": "spawn-another-object",
 							"objectClass": "Key3",
 							"sid": 879413999262325,
@@ -3383,25 +3374,17 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 571051001427767,
+							"sid": 939258904387526,
 							"parameters": {
-								"seconds": "3"
+								"seconds": "0.5"
 							}
 						},
 						{
-							"id": "go-to-layout-by-name",
+							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 279496532047231,
+							"sid": 511816810964602,
 							"parameters": {
-								"layout": "\"StartPAge\""
-							}
-						},
-						{
-							"id": "stop",
-							"objectClass": "Audio",
-							"sid": 155545915805112,
-							"parameters": {
-								"tag": "\"Avatar\""
+								"layout": "Layout 2"
 							}
 						}
 					],

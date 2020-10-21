@@ -10,93 +10,6 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "player Can press I to use Immune / This should make it so that when the HopeBlock hits the player he goes immune to the red bullets and the turt will stop shooting at player, you can only grab hopeblock Once"
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 405333677704563,
-							"parameters": {
-								"key": 73
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "HopeBlock2",
-							"sid": 258413007722245
-						},
-						{
-							"id": "destroy",
-							"objectClass": "PressIStaionary",
-							"sid": 534966200592389
-						},
-						{
-							"id": "pin-to-object-imagepoint",
-							"objectClass": "ForeField",
-							"sid": 407034676558298,
-							"behaviorType": "Pin",
-							"parameters": {
-								"pin-to": "Player",
-								"image-point": "1",
-								"angle": true,
-								"width-type": "scale",
-								"height-type": "scale",
-								"z": false
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 365151754618749,
-							"parameters": {
-								"seconds": "3.5"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "ForeField",
-							"sid": 339531710095961
-						}
-					],
-					"sid": 668645417514730
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 657737181142825,
-							"parameters": {
-								"key": 87
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-double-jump",
-							"objectClass": "Player",
-							"sid": 268347880524352,
-							"behaviorType": "Platform",
-							"parameters": {
-								"state": "enabled"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "HopeBlock3",
-							"sid": 556507704223254
-						}
-					],
-					"sid": 355196711634361
-				},
-				{
-					"eventType": "comment",
 					"text": "Slide Ctrl's/ Ctrl's in general "
 				},
 				{
@@ -308,7 +221,7 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 620212931645178,
+							"sid": 893998702102811,
 							"parameters": {
 								"layout": "Layout 1"
 							}
@@ -388,7 +301,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Turts",
-					"sid": 924698330287636,
+					"sid": 325309119371428,
 					"parameters": {
 						"object": "EnemyBlock1",
 						"layer": "2",
@@ -408,6 +321,79 @@
 				}
 			],
 			"sid": 664846295607942
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 618338273919068,
+					"parameters": {
+						"object": "Key4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 332523638247637,
+					"parameters": {
+						"audio-file": "Key",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 767979085824710,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 819952986319295,
+					"parameters": {
+						"layout": "Layout 3"
+					}
+				}
+			],
+			"sid": 212963112460103
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "EnemyBlock1",
+					"sid": 772112348771938
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "EnemyBlock1",
+					"sid": 693541222086609,
+					"parameters": {
+						"angle": "-180"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "EnemyBlock1",
+					"sid": 844201871624177,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "400"
+					}
+				}
+			],
+			"sid": 417661624886602
 		}
 	],
 	"sid": 647022773746996

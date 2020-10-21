@@ -216,7 +216,8 @@
 			"NoText",
 			"Mouse",
 			"HopeTurt3",
-			"DeadFloor2"
+			"DeadFloor2",
+			"Key4"
 		],
 		"subfolders": []
 	},
@@ -434,7 +435,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 2000,
-	"viewportHeight": 1500,
+	"viewportWidth": 1500,
+	"viewportHeight": 960,
 	"firstLayout": "StartPAge"
 }
