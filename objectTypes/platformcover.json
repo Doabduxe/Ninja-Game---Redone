@@ -1,0 +1,20 @@
+{
+	"name": "PlatformCOver",
+	"plugin-id": "TiledBg",
+	"sid": 902766255895584,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 474,
+		"height": 474,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Sean Johnson\\Downloads\\Rocky TIlemap.jpg",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 1785108,
+		"useCollisionPoly": true
+	}
+}

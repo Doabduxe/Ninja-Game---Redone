@@ -1,0 +1,21 @@
+{
+	"name": "Tilemap",
+	"plugin-id": "Tilemap",
+	"sid": 754780839504543,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 2048,
+		"height": 512,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Sean Johnson\\Downloads\\shrubs.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6738779,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}
