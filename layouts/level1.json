@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "Level1",
 	"layers": [
 		{
 			"name": "SuperBG",
@@ -1259,8 +1259,8 @@
 						"y": 490,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
-						"originX": 0.0136986301369863,
-						"originY": 0.4883720930232558,
+						"originX": 0.9863013698630136,
+						"originY": 0.5116279069767442,
 						"color": [
 							1,
 							1,
@@ -3069,35 +3069,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Key4",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 154,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 8935,
-						"y": -567,
-						"width": 238.16648898345122,
-						"height": 247.16648898345122,
-						"originX": 0.5,
-						"originY": 0.375968992248062,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 598234048230404,
@@ -3131,5 +3102,5 @@
 	"width": 9708,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Level1 event Sheet"
 }
