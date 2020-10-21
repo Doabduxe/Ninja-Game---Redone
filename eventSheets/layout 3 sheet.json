@@ -664,6 +664,11 @@
 						"instance-variable": "HP_1",
 						"value": "1"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 594687130682533
 				}
 			],
 			"sid": 593892902331539
@@ -715,6 +720,11 @@
 						"instance-variable": "HP_1",
 						"value": "1"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 580844846545877
 				}
 			],
 			"sid": 219630390797205
@@ -740,6 +750,11 @@
 						"instance-variable": "HP_1",
 						"value": "1"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock4",
+					"sid": 284042078171477
 				}
 			],
 			"sid": 310551260215349

@@ -376,14 +376,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-angle",
-					"objectClass": "EnemyBlock1",
-					"sid": 693541222086609,
-					"parameters": {
-						"angle": "-180"
-					}
-				},
-				{
 					"id": "set-speed",
 					"objectClass": "EnemyBlock1",
 					"sid": 844201871624177,
@@ -605,6 +597,22 @@
 					"parameters": {
 						"instance-variable": "HP_1",
 						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "EnemyBlock1",
+					"sid": 321913125222028
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 809183764106666,
+					"parameters": {
+						"audio-file": "Hit",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],

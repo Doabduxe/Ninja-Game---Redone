@@ -878,7 +878,7 @@
 							"properties": {
 								"range": 2000,
 								"rate-of-fire": 6,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 360,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
@@ -893,8 +893,8 @@
 						"y": 1474,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
-						"originX": 0.0136986301369863,
-						"originY": 0.4883720930232558,
+						"originX": 0.9863013698630136,
+						"originY": 0.5116279069767442,
 						"color": [
 							1,
 							1,
@@ -921,7 +921,7 @@
 							"properties": {
 								"range": 2000,
 								"rate-of-fire": 6,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
@@ -936,8 +936,8 @@
 						"y": 865,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
-						"originX": 0.0136986301369863,
-						"originY": 0.4883720930232558,
+						"originX": 0.9863013698630136,
+						"originY": 0.5116279069767442,
 						"color": [
 							1,
 							1,
@@ -964,7 +964,7 @@
 							"properties": {
 								"range": 4000,
 								"rate-of-fire": 7,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
@@ -979,8 +979,8 @@
 						"y": 1294,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
-						"originX": 0.0136986301369863,
-						"originY": 0.4883720930232558,
+						"originX": 0.9863013698630136,
+						"originY": 0.5116279069767442,
 						"color": [
 							1,
 							1,
@@ -1007,7 +1007,7 @@
 							"properties": {
 								"range": 2000,
 								"rate-of-fire": 6,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
@@ -1022,8 +1022,8 @@
 						"y": 846,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
-						"originX": 0.0136986301369863,
-						"originY": 0.4883720930232558,
+						"originX": 0.9863013698630136,
+						"originY": 0.5116279069767442,
 						"color": [
 							1,
 							1,
@@ -1050,7 +1050,7 @@
 							"properties": {
 								"range": 2000,
 								"rate-of-fire": 6,
-								"rotate": false,
+								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
 								"predictive-aim": false,
@@ -1065,8 +1065,8 @@
 						"y": 2277,
 						"width": 116.28897467959139,
 						"height": 68.49898508523877,
-						"originX": 0.0136986301369863,
-						"originY": 0.4883720930232558,
+						"originX": 0.9863013698630136,
+						"originY": 0.5116279069767442,
 						"color": [
 							1,
 							1,
