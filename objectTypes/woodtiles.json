@@ -1,0 +1,32 @@
+{
+	"name": "WoodTiles",
+	"plugin-id": "TiledBg",
+	"sid": 622421645524605,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 301,
+		"height": 31,
+		"originX": 0.3754152823920266,
+		"originY": -28.516129032258064,
+		"originalSource": "C:\\Users\\Sean Johnson\\Downloads\\shrubs.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3475173,
+		"collisionPoly": {
+			"points": [
+				0,
+				1,
+				0,
+				0,
+				1,
+				0,
+				1,
+				1
+			]
+		},
+		"useCollisionPoly": true
+	}
+}
