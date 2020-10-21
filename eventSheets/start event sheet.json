@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet 2",
+	"name": "Start Event sheet",
 	"events": [
 		{
 			"eventType": "block",
@@ -16,7 +16,7 @@
 					"objectClass": "System",
 					"sid": 862824907272553,
 					"parameters": {
-						"layout": "Layout 1"
+						"layout": "Level1"
 					}
 				}
 			],
