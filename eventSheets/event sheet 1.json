@@ -1,5 +1,5 @@
 {
-	"name": "Level1 event Sheet",
+	"name": "Event sheet 1",
 	"events": [
 		{
 			"eventType": "group",
@@ -2989,7 +2989,7 @@
 							"objectClass": "System",
 							"sid": 194884940530262,
 							"parameters": {
-								"layout": "Level1"
+								"layout": "Layout 1"
 							}
 						}
 					],
@@ -3384,7 +3384,7 @@
 							"objectClass": "System",
 							"sid": 511816810964602,
 							"parameters": {
-								"layout": "level2"
+								"layout": "Layout 2"
 							}
 						}
 					],

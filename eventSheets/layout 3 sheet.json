@@ -1,13 +1,100 @@
 {
-	"name": "Level 2 Event Sheet",
+	"name": "Layout 3 Sheet",
 	"events": [
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "Player Controls2",
+			"title": "Player Controls3",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
+				{
+					"eventType": "comment",
+					"text": "player Can press I to use Immune / This should make it so that when the HopeBlock hits the player he goes immune to the red bullets and the turt will stop shooting at player, you can only grab hopeblock Once"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 288384596762826,
+							"parameters": {
+								"key": 73
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "HopeBlock2",
+							"sid": 536275958258458
+						},
+						{
+							"id": "destroy",
+							"objectClass": "PressIStaionary",
+							"sid": 144548760541000
+						},
+						{
+							"id": "pin-to-object-imagepoint",
+							"objectClass": "ForeField",
+							"sid": 616359195790263,
+							"behaviorType": "Pin",
+							"parameters": {
+								"pin-to": "Player",
+								"image-point": "1",
+								"angle": true,
+								"width-type": "scale",
+								"height-type": "scale",
+								"z": false
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 786977872444970,
+							"parameters": {
+								"seconds": "3.5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "ForeField",
+							"sid": 331028365275626
+						}
+					],
+					"sid": 337405467360139
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 928411592548679,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-double-jump",
+							"objectClass": "Player",
+							"sid": 213232050265316,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "HopeBlock3",
+							"sid": 818632395177917
+						}
+					],
+					"sid": 914773703059251
+				},
 				{
 					"eventType": "comment",
 					"text": "Slide Ctrl's/ Ctrl's in general "
@@ -18,7 +105,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 549540408373537,
+							"sid": 175717890247707,
 							"parameters": {
 								"key": 39
 							}
@@ -26,14 +113,14 @@
 						{
 							"id": "is-mirrored",
 							"objectClass": "Player",
-							"sid": 475427702989445
+							"sid": 679381693262087
 						}
 					],
 					"actions": [
 						{
 							"id": "set-mirrored",
 							"objectClass": "Player",
-							"sid": 989157193417916,
+							"sid": 361419527394261,
 							"parameters": {
 								"state": "not-mirrored"
 							}
@@ -41,7 +128,7 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 419282173022764,
+							"sid": 317770970221760,
 							"parameters": {
 								"audio-file": "Running",
 								"loop": "not-looping",
@@ -50,7 +137,7 @@
 							}
 						}
 					],
-					"sid": 381741726100243
+					"sid": 714141894786930
 				},
 				{
 					"eventType": "block",
@@ -58,7 +145,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 585670347167108,
+							"sid": 101501714556552,
 							"parameters": {
 								"key": 37
 							}
@@ -66,7 +153,7 @@
 						{
 							"id": "is-mirrored",
 							"objectClass": "Player",
-							"sid": 126103374102709,
+							"sid": 983014058971908,
 							"isInverted": true
 						}
 					],
@@ -74,7 +161,7 @@
 						{
 							"id": "set-mirrored",
 							"objectClass": "Player",
-							"sid": 357961686679094,
+							"sid": 530934458818368,
 							"parameters": {
 								"state": "mirrored"
 							}
@@ -82,7 +169,7 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 917899195633704,
+							"sid": 495221659296311,
 							"parameters": {
 								"audio-file": "Running",
 								"loop": "not-looping",
@@ -91,7 +178,7 @@
 							}
 						}
 					],
-					"sid": 820955142280041
+					"sid": 907941933026483
 				},
 				{
 					"eventType": "block",
@@ -99,7 +186,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 276981537492658,
+							"sid": 834746845779789,
 							"parameters": {
 								"key": 38
 							}
@@ -109,7 +196,7 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 844844024023050,
+							"sid": 505629118352882,
 							"parameters": {
 								"audio-file": "JUmp",
 								"loop": "not-looping",
@@ -118,7 +205,7 @@
 							}
 						}
 					],
-					"sid": 429008282284198
+					"sid": 940502211076196
 				},
 				{
 					"eventType": "block",
@@ -126,13 +213,13 @@
 						{
 							"id": "is-moving",
 							"objectClass": "Player",
-							"sid": 966551645576211,
+							"sid": 271817692670884,
 							"behaviorType": "Platform"
 						},
 						{
 							"id": "is-on-floor",
 							"objectClass": "Player",
-							"sid": 685496339285124,
+							"sid": 265371512229255,
 							"behaviorType": "Platform"
 						}
 					],
@@ -140,14 +227,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 520819732760245,
+							"sid": 134184081532522,
 							"parameters": {
 								"animation": "\"run\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 239452899155464
+					"sid": 701131807426469
 				},
 				{
 					"eventType": "block",
@@ -155,13 +242,13 @@
 						{
 							"id": "on-stopped",
 							"objectClass": "Player",
-							"sid": 316198554498165,
+							"sid": 403767317499825,
 							"behaviorType": "Platform"
 						},
 						{
 							"id": "is-on-floor",
 							"objectClass": "Player",
-							"sid": 516713362596791,
+							"sid": 398827118770400,
 							"behaviorType": "Platform"
 						}
 					],
@@ -169,14 +256,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 143707267408268,
+							"sid": 310289298466284,
 							"parameters": {
 								"animation": "\"Idle\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 735605172566716
+					"sid": 106931945120473
 				},
 				{
 					"eventType": "block",
@@ -184,7 +271,7 @@
 						{
 							"id": "is-jumping",
 							"objectClass": "Player",
-							"sid": 483199113630327,
+							"sid": 237077126849434,
 							"behaviorType": "Platform"
 						}
 					],
@@ -192,14 +279,14 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Player",
-							"sid": 221133308621904,
+							"sid": 407438285552818,
 							"parameters": {
 								"animation": "\"Jump\"",
 								"from": "beginning"
 							}
 						}
 					],
-					"sid": 493503975491049
+					"sid": 599125055561388
 				},
 				{
 					"eventType": "comment",
@@ -211,7 +298,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 142912840914728,
+							"sid": 884321960523402,
 							"parameters": {
 								"key": 89
 							}
@@ -221,13 +308,13 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 893998702102811,
+							"sid": 316064283725551,
 							"parameters": {
-								"layout": "Level1"
+								"layout": "Layout 1"
 							}
 						}
 					],
-					"sid": 461441645523726
+					"sid": 869980580118209
 				},
 				{
 					"eventType": "block",
@@ -235,7 +322,7 @@
 						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
-							"sid": 240392309027675,
+							"sid": 208431684572311,
 							"parameters": {
 								"key": 78
 							}
@@ -245,16 +332,16 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 721146456379144,
+							"sid": 226114763354321,
 							"parameters": {
 								"layout": "StartPAge"
 							}
 						}
 					],
-					"sid": 977359167242301
+					"sid": 641967280286508
 				}
 			],
-			"sid": 160735150105234
+			"sid": 626167669723629
 		},
 		{
 			"eventType": "block",
@@ -262,14 +349,14 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 746347300478372
+					"sid": 699973498115806
 				}
 			],
 			"actions": [
 				{
 					"id": "set-double-jump",
 					"objectClass": "Player",
-					"sid": 474768666316367,
+					"sid": 406131883512703,
 					"behaviorType": "Platform",
 					"parameters": {
 						"state": "enabled"
@@ -278,14 +365,23 @@
 				{
 					"id": "add-object-to-target",
 					"objectClass": "Turts",
-					"sid": 720224715337095,
+					"sid": 540337977056446,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				},
+				{
+					"id": "add-object-to-target",
+					"objectClass": "Turts5",
+					"sid": 120886741084044,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
 					}
 				}
 			],
-			"sid": 877387238203780
+			"sid": 667430346774980
 		},
 		{
 			"eventType": "block",
@@ -293,7 +389,7 @@
 				{
 					"id": "on-shoot",
 					"objectClass": "Turts",
-					"sid": 222083044501501,
+					"sid": 323276876621812,
 					"behaviorType": "Turret"
 				}
 			],
@@ -301,7 +397,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Turts",
-					"sid": 325309119371428,
+					"sid": 293215468153295,
 					"parameters": {
 						"object": "EnemyBlock1",
 						"layer": "2",
@@ -311,7 +407,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 247337015310449,
+					"sid": 198955565552244,
 					"parameters": {
 						"audio-file": "Shuriken",
 						"loop": "not-looping",
@@ -320,73 +416,43 @@
 					}
 				}
 			],
-			"sid": 664846295607942
+			"sid": 803285847621928
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 618338273919068,
-					"parameters": {
-						"object": "Key4"
-					}
+					"id": "on-shoot",
+					"objectClass": "Turts5",
+					"sid": 791539735134577,
+					"behaviorType": "Turret"
 				}
 			],
 			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Turts5",
+					"sid": 290467715218716,
+					"parameters": {
+						"object": "EnemyBlock4",
+						"layer": "2",
+						"image-point": "1"
+					}
+				},
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 332523638247637,
+					"sid": 678108991088574,
 					"parameters": {
-						"audio-file": "Key",
+						"audio-file": "Shuriken",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 767979085824710,
-					"parameters": {
-						"seconds": "0.5"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 819952986319295,
-					"parameters": {
-						"layout": "Level3"
-					}
 				}
 			],
-			"sid": 212963112460103
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-created",
-					"objectClass": "EnemyBlock1",
-					"sid": 772112348771938
-				}
-			],
-			"actions": [
-				{
-					"id": "set-speed",
-					"objectClass": "EnemyBlock1",
-					"sid": 844201871624177,
-					"behaviorType": "Bullet",
-					"parameters": {
-						"speed": "400"
-					}
-				}
-			],
-			"sid": 417661624886602
+			"sid": 295901876135939
 		}
 	],
-	"sid": 647022773746996
+	"sid": 424918505125854
 }
