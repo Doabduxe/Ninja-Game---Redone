@@ -394,6 +394,247 @@
 				}
 			],
 			"sid": 417661624886602
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 963355506975695
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "PlayrHP",
+					"sid": 585599080227986,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Player",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 574224081111033
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 577064351798213,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 691112513003582,
+					"parameters": {
+						"animation": "\"FullHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 967478432309987
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 821066741720729,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 433920200997397,
+					"parameters": {
+						"animation": "\"Hp4\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 459514729858330
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 114497554437805,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 540148443105550,
+					"parameters": {
+						"animation": "\"Hp3\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 796552387577233
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 245872159416519,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 416033273946989,
+					"parameters": {
+						"animation": "\"Hp2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 980281658404256
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 847708424575898,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 204192823756711,
+					"parameters": {
+						"animation": "\"Hp1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 329493615304205
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 288642295684861,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PlayrHP",
+					"sid": 724309624610833,
+					"parameters": {
+						"animation": "\"NoHP\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 413506634985515
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 163493829455841,
+					"parameters": {
+						"object": "EnemyBlock1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 529392639871485,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 900726302387523
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Player",
+					"sid": 940785402922988,
+					"parameters": {
+						"instance-variable": "HP_1",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 944129699901439,
+					"parameters": {
+						"layout": "Game Over Layout"
+					}
+				}
+			],
+			"sid": 330127073483009
 		}
 	],
 	"sid": 647022773746996

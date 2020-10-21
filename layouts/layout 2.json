@@ -1149,6 +1149,41 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "PlayrHP",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "FullHP",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 125,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 98,
+						"y": 2495,
+						"width": 172.62912646634607,
+						"height": 30.63666271785879,
+						"originX": 0.5258426966292135,
+						"originY": 0.40625,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 557248026813043,

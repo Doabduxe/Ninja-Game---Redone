@@ -3052,7 +3052,13 @@
 					},
 					"uid": 47,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
 						"x": 1346,
 						"y": 897,
